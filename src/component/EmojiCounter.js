@@ -12,7 +12,7 @@ const styles = {
     }
 }
 
-export const emojis = ['😀', ' 😀', ' 🙂', ' 🤪', ' 🥵'];
+export const emojis = ['😀', ' 🥰', ' 🙂', ' 🤪', ' 🥵'];
 
 export default function EmojiCounter () {
     return (

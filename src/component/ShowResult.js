@@ -1,9 +1,10 @@
 import React from 'react'
-import ShowEmoji from './ShowEmoji'
 
-export default function ShowResult () {
+export default function ShowResult ({handleClickEmoji}) {
+
+    const handleClick = () => handleClickEmoji()
     return (
-        <button onClick={ShowEmoji}>
+        <button onClick={handleClick}>
             Show Results
         </button>
     );
